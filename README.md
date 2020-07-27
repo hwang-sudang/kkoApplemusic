@@ -1,7 +1,16 @@
-# kkoApplemusic
+# Autoencoder
 카카오 아레나 애플뮤직 팀
 
 
-song_mat.ipynb 파일
+- song_mat.ipynb 파일
 전체 플레이리스트와 전체 노래를 행과 열로하는 희소행렬 만드는 함수
+
+
+
+
+- 0723_Autoencoder.ipynb  파일
+  - 오토인코더 모델 구축은 완료했으나 행렬연산 오류 발생.
+  - Sparse 행렬 -> Sparse Tensor로 변환 후, MPL 형태로 오토인코더 인풋 대입.
+  - 오류내용 : 컬럼이 2인 데이터 꼴로 변환해야하는 데 우리의 차원은 61만 * 256 (노드수). 무슨 근거로 컬럼이 2로 변환?
+
 
