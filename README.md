@@ -15,8 +15,9 @@
 
 
 ## How 2 use
-(정선이 한테 물어보기 )
-- Logistic Matrix Factorization model for songs
+- 업로드된 Apple_Music_Model_for_BPR_LMF.ipynb을 이용헤 result.json을 만든다.
+- 만들어진 result.json을 메인코드인 PlaylistEmbedding_AppleMusic.ipynb에 인풋으로 넣어서 새로운 result.json을 만든다.
+- 제출한다.
 
 
 
